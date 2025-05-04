@@ -72,7 +72,6 @@ def comment_on_ticket(key, text):
 def fetch_issues():
   
   url = f"{JIRA_URL}/rest/api/3/search"
-  
   # Set up authentication
   auth = HTTPBasicAuth(username, api_token)
   

@@ -35,7 +35,7 @@ def analyse_ticket(input_from_user):
     {code}
     """   
     
-    context= prompt_template+issues+codebase
+    context= prompt_template+issues+codebase+"\n"+"User input: " + input_from_user
     
     
     body = {
